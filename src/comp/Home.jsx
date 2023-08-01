@@ -4,7 +4,7 @@ import Image1 from '../assets/faceresume.png'
 
 const Home = () => {
   return (
-    <div className='h-screen w-full'>
+    <div name='HOME' className='h-screen w-full'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-start  h-full text-left text-lg md:flex-row'>
 
 <div className='flex flex-col justify-center h-full text-left text-black'>

@@ -5,6 +5,8 @@ import './App.css'
 import Navbar1 from './comp/Navbar1'
 import Home from './comp/Home'
 import Aboutme from './comp/Aboutme'
+import Skills from './comp/Skills'
+import Contact from './comp/Contact'
 
 
 
@@ -16,6 +18,8 @@ function App() {
      <Navbar1></Navbar1>
       <Home/>
       <Aboutme/>
+      <Skills/>
+      <Contact/>
     </>
   )
 }
