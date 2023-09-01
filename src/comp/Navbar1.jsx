@@ -32,15 +32,15 @@ const Navbar1 = () => {
   return (
     <div>
       
-         <div className='flex justify-between items-center w-full bg-white text-black fixed px-4 h-20 z-10'>
+         <div className='flex justify-between items-center w-full bg-white text-black fixed px-4 h-14 z-10'>
           <div>
-            <p className='font-semibold text-3xl'>gs.</p>
+            <p className='font-semibold text-xl'>gs.</p>
           </div>
 
 <div className='pr-10'>
         <ul className=' md:flex hidden'>
           {links.map(({id, link})=>(
-            <li key={id} className='hover:underline font-medium text-xl cursor-pointer px-5 '><Link to={link} smooth duration={800}>{link}</Link></li>
+            <li key={id} className='hover:underline font-medium text-lg cursor-pointer px-5 '><Link to={link} smooth duration={800}>{link}</Link></li>
           ))}
         </ul>
         </div>

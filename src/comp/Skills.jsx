@@ -50,12 +50,12 @@ const Skills = () => {
 
 
   return (
-    <div name='SKILLS' className='h-screen w-full '>
-    <div className='max-w-screen-lg mx-auto flex flex-col  items-center justify-center w-full h-full text-center text-lg '>
-        <div className='font-medium text-5xl md:text-7xl'>
+    <div name='SKILLS' className='h-auto w-full '>
+    <div className='max-w-screen-lg mx-auto flex flex-col py-20  items-center justify-center w-full h-full text-center text-lg '>
+        <div className='font-medium text-4xl md:text-6xl'>
        <h1>Skills</h1>
        </div>
-       <div className='grid grid-cols-2 gap-3 w-full mx-auto md:grid-cols-4 my-20'>
+       <div className='grid grid-cols-2 gap-3 w-full mx-auto md:grid-cols-4 my-16'>
         {techs.map(({id,src,title})=>(
             <div key={id} className=' mx-auto mt-5 md:my-10 md:mx-auto  hover:shadow-md shadow-blue-400 hover:scale-105 duration-500 rounded-md'>
                <p className=''>{src}{title}</p>

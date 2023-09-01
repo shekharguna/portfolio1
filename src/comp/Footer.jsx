@@ -3,9 +3,9 @@ import {FaLinkedin, FaGithub} from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <div className='flex flex-row justify-between bg-black p-4'>
+    <div className='flex flex-row justify-between bg-black p-1'>
          <div className=' text-white '>
-            <p className='font-semibold text-3xl'>gs.</p>
+            <p className='font-semibold text-xl'>gs.</p>
           </div>
           <div className=''>
             <a href='https://github.com/shekharguna'>
